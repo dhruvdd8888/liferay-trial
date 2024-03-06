@@ -1,0 +1,4 @@
+Bundle-Name: BasicForm
+Bundle-SymbolicName: com.aixtor.training
+Bundle-Version: 1.0.1
+Export-Package: com.aixtor.training.constants

@@ -1,0 +1,4 @@
+Bundle-Name: gold-offer-form-web
+Bundle-SymbolicName: com.aixtor.meepay.portlet.goldofferform.web
+Bundle-Version: 1.0.0
+Export-Package: com.aixtor.meepay.portlet.constants

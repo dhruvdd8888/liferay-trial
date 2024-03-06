@@ -1,0 +1,4 @@
+Bundle-Name: meepay-employee-web
+Bundle-SymbolicName: meepay.employee.web
+Bundle-Version: 1.0.0
+Export-Package: com.aixtor.meepay.constants

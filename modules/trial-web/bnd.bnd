@@ -1,0 +1,4 @@
+Bundle-Name: trial-web
+Bundle-SymbolicName: com.aixtor.meepay.trial
+Bundle-Version: 1.0.0
+Export-Package: com.aixtor.meepay.trial.constants

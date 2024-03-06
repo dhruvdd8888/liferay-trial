@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:audit-management:audit-management-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../audit-management-api/src/main/java"
+}
+
+group = "com.aixtor.meepay.audit.management"

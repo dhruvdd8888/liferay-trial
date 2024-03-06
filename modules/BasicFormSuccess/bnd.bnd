@@ -1,0 +1,4 @@
+Bundle-Name: BasicFormSuccess
+Bundle-SymbolicName: com.aixtor.training.success
+Bundle-Version: 1.0.0
+Export-Package: com.aixtor.training.constants

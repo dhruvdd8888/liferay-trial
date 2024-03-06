@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-sql>
+    <sql id="com.aixtor.meepay.service.persistence.EmployeeFinder.findByEmployeeContents">
+        <![CDATA[
+			SELECT ee.*, eb.name as bname, ed.name as dname, ede.name as dename
+			FROM employee_employee ee
+			JOIN employee_branch eb ON ee.branchid = eb.branchid
+			JOIN employee_department ed ON ee.departmentId = ed.departmentId
+			JOIN employee_designation ede ON ed			e.designationId = ee.designationId
+			WHERE 
+				ee.firstName LIKE ? OR
+			    ee.lastName LIKE ? OR
+			    ee.email  LIKE ? OR
+				ee.mobileNumber  LIKE ? OR
+			    ee.address  LIKE ? OR
+			    ede.name  LIKE ? OR
+			    eb.name  LIKE ? OR
+			    ed.name  LIKE ?
+        ]]>
+    </sql>
+</custom-sql>

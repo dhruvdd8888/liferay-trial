@@ -1,0 +1,9 @@
+apiDir: "../meepay-employee-headless-api/src/main/java"
+apiPackagePath: "com.aixtor.meepay.employee.headless"
+application:
+    baseURI: "/meepay-employee-headless"
+    className: "MeepayEmployeeHeadlessApplication"
+    name: "MeepayEmployeeHeadless"
+author: "dhruv.dhana"
+clientDir: "../meepay-employee-headless-client/src/main/java"
+testDir: "../meepay-employee-headless-test/src/testIntegration/java"

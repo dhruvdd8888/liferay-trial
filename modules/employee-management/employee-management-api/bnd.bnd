@@ -1,0 +1,10 @@
+Bundle-Name: employee-management-api
+Bundle-SymbolicName: com.aixtor.meepay.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.aixtor.meepay.exception,\
+	com.aixtor.meepay.model,\
+	com.aixtor.meepay.service,\
+	com.aixtor.meepay.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../employee-management-service/service.xml

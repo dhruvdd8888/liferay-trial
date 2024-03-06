@@ -1,0 +1,3 @@
+Bundle-Name: meepay-employee-headless-client
+Bundle-SymbolicName: com.aixtor.meepay.employee.headless.client
+Bundle-Version: 1.0.0

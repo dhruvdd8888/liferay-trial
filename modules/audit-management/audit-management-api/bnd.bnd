@@ -1,0 +1,10 @@
+Bundle-Name: audit-management-api
+Bundle-SymbolicName: com.aixtor.meepay.audit.management.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.aixtor.meepay.audit.management.exception,\
+	com.aixtor.meepay.audit.management.model,\
+	com.aixtor.meepay.audit.management.service,\
+	com.aixtor.meepay.audit.management.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../audit-management-service/service.xml

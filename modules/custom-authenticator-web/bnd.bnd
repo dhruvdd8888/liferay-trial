@@ -1,0 +1,4 @@
+Bundle-Name: custom-authenticator-web
+Bundle-SymbolicName: com.aixtor.meepay.custom.authenticator
+Bundle-Version: 1.0.0
+Export-Package: com.aixtor.meepay.custom.authenticator.constants

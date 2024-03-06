@@ -1,0 +1,6 @@
+Bundle-Name: meepay-employee-headless-api
+Bundle-SymbolicName: com.aixtor.meepay.employee.headless.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.aixtor.meepay.employee.headless.dto.v1_0,\
+	com.aixtor.meepay.employee.headless.resource.v1_0

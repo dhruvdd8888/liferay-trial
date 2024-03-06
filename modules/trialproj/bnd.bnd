@@ -1,0 +1,5 @@
+Bundle-Name: trialproj
+Bundle-SymbolicName: trialproj
+Bundle-Version: 1.0.0
+Export-Package: trialproj.constants
+Bundle-Activator: com.aixtor.trialproj.activator.TrialActivator
