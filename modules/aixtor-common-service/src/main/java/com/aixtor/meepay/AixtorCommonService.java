@@ -45,6 +45,7 @@ public class AixtorCommonService implements AixtorCommonApi {
 			auditLogsLocalService.addAuditLogs(auditlogs);
 			
 		} catch (Exception e) {
+
 			e.printStackTrace();
 			return false;			
 		}
